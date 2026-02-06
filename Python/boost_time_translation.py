@@ -41,6 +41,3 @@ plt.title("Boost flux")
 plt.loglog(xdata, func(xdata, *popt),'r-',errors,'+',label='fit: a=%5.3f, b=%5.3f, c=%5.3f' % tuple(popt))
 plt.show()
 
-
-
-
